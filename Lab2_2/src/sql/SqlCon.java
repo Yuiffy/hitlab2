@@ -10,7 +10,7 @@ import com.sina.sae.util.SaeUserInfo;
  * �������Ϊ0Ϊ����Ϊ����Ϊд
  */
 public class SqlCon {
-	private boolean online = false;///�������������ͬ
+	private boolean online = false;///设置在线或不在线
 	
 	final static private String driver = "com.mysql.jdbc.Driver";
 	final static private int WAIT = 10;
